@@ -1,10 +1,4 @@
-//var server = 'sym-corp-stage-guse1-aha1.symphony.com';
-//var controllerServer = 'corporate.symphony.com';
-var server = 'sym-corp-stage-guse1-aha1.symphony.com';
-server = 'corporate-api.symphony.com';
-server = 'nexus.symphony.com';
-server = 'qa6.symphony.com';
-server = 'nexus2.symphony.com';
+var server = 'nexus2.symphony.com';
 
 var config = {
 	urlConfig : {
