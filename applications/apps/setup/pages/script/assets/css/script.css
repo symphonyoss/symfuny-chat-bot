@@ -1,0 +1,30 @@
+.script-page {
+	padding: 5px;
+}
+
+.script-listing {
+	height: 500px;
+	border-color: rgba(80, 80, 80, 0.5);
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 10px;
+}
+
+.script-item-selected {
+	background-color: rgb(68, 179, 221);
+}
+
+.script-item {
+	padding: 0px 5px;
+	cursor: pointer;
+}
+
+.show-script-list {display: none}
+.script-list .show-script-list {display: block}
+
+.show-script-edit {display: none}
+.script-edit .show-script-edit {display: block}
+
+.script-editor {
+	height: 500px;
+}

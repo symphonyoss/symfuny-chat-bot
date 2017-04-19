@@ -1,0 +1,2 @@
+require('mootools');
+require('./src');

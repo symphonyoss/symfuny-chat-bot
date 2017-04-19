@@ -1,0 +1,30 @@
+<div id="script-page" class="page script-page">
+	<div class="show-script-list">
+		<ul id ="script-listing" class="script-listing">
+			<li id="script-item" class="script-item template"><span id="script-item-name"></span></li>
+		</ul>
+
+		<button id="delete-script" class="button">Delete</button><button id="edit-script" class="button">Edit</button><button id="new-script" class="button">New</button><button id="download-zip" class="button">Download</button>
+	</div>
+	<div class="show-script-edit">
+		<div id="script-editor" class="script-editor"></div>
+		<fieldset id="script-name" class="script-name">
+			<label for="script-name-input">Name</label>
+			<input id="script-name-input" name="script-name-input" type="text" placeholder="Name">
+
+			<div class="hint-tooltip tooltip-left show-hint show-error">
+				<div id="script-name-error" class="hint-tooltip-text error-text"></div>
+			</div>
+		</fieldset>
+
+		<fieldset id="script-publish" class="script-publish">
+			<label for="script-publish-input">Public</label>
+			<input id="script-publish-input" name="script-publish-input" type="checkbox" placeholder="">
+
+			<div class="hint-tooltip tooltip-left show-hint show-error">
+				<div id="script-publish-error" class="hint-tooltip-text error-text"></div>
+			</div>
+		</fieldset>
+		<button id="save-script" class="button">Save</button><button id="quit-edit" class="button">Quit</button>
+	</div>
+</div>

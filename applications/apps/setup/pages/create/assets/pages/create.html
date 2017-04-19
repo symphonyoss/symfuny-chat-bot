@@ -1,0 +1,19 @@
+<div id="create-page" class="page create-page">
+	<div class="form-box">
+		<p>To create a bot, you'll need to get the certificate chain and the certificate private key, in PEM format, for your bot user. See your System Administrator to request this data.</p>
+		<textarea id="bot-chain-input" class="pem" placeholder="Certificate Chain PEM"></textarea>
+		<textarea id="bot-key-input" class="pem" placeholder="Private Key PEM"></textarea>
+		<div>
+			<fieldset id="passphrase" class="passphrase">
+				<label for="passphrase-input">Passphrase</label>
+				<input id="passphrase-input" name="passphrase-input" type="text" placeholder="Passphrase">
+
+				<div class="hint-tooltip tooltip-left show-hint show-error">
+					<div id="passphrase-error" class="hint-tooltip-text error-text"></div>
+				</div>
+			</fieldset>
+		</div>
+		<div><button id="create-bot" class="button">Create</button></div>
+	</div>
+	<div id="general-error-text" class="show-general-error general-error-text">ERROR because of stuff</div>
+</div>

@@ -1,0 +1,30 @@
+.help-page {
+	overflow: auto;
+}
+
+.help-page ul li {
+	list-style-type: disc;
+	list-style-position: outside;
+	margin-left: 15px;
+	font-size: 1rem;
+}
+
+.help-page ol li {
+	list-style-type: inherit;
+	list-style-position: outside;
+	margin-left: 15px;
+	font-size: 1rem;
+}
+
+.help-page p,
+.help-page ol,
+.help-page ul {
+	padding: 5px;
+}
+.help-page li {
+	margin-bottom: 5px;
+}
+
+.help-content {
+	padding: 5px;
+}

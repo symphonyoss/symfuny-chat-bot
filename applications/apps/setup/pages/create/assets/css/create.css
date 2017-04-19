@@ -1,0 +1,33 @@
+.create-page {
+	padding: 5px;
+}
+
+label {
+	width: 140px;
+	display: inline-block;
+}
+
+#bot-chain-input,
+#bot-key-input {
+	width: calc(100% - 12px);
+	height: 100px;
+	font-family: "Courier New", monospace;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.general-error-text {
+	background: rgba(218, 80, 80, 0.47);
+	color: red;
+	padding: 20px;
+	border-style: solid;
+	border-radius: 13px;
+	border-color: red;
+	margin-top: 20px;
+}
+
+.show-general-error {display: none;}
+.general-error .show-general-error {display: block;}
+
+
+

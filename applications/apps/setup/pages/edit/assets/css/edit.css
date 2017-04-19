@@ -1,0 +1,104 @@
+.edit-page {
+	padding: 5px;
+}
+
+label {
+	width: 140px;
+	display: inline-block;
+}
+
+
+.script-list-section {
+	float: left;
+	margin-right: 10px;
+	width: 46%;
+}
+
+.bot-script-list {
+	height: 250px;
+	width: calc(100% - 12px);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(80, 80, 80, 0.5);
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+.bot-script-item {
+	padding: 0px 5px;
+	cursor: pointer;
+}
+
+.bot-page .bot-script-list .use-script {
+	width: 16px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+
+.bot-buttons {
+	margin-top: 10px;
+}
+
+/*
+   Sortable List
+*/
+
+.bot-script-list .dragging, .bot-script-list .dragging {
+  cursor: move !important
+}
+
+.dragged {
+  position: absolute;
+  top: 0;
+  opacity: .5;
+  z-index: 2000;
+}
+
+.bot-script-list .vertical {
+	margin: 0 0 9px 0;
+	min-height: 10px;
+}
+
+.bot-script-list .vertical li{
+	display: block;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #CCC;
+}
+
+.bot-script-list.vertical li.placeholder
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.bot-script-list.vertical li.placeholder:before {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	margin-top: -5px;
+	left: -5px;
+	top: -4px;
+	border: 5px solid transparent;
+	border-left-color: red;
+	border-right: none;
+}
+
+.bot-status {
+	background: rgba(247, 242, 63, 0.6);
+	font-size: 18px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(247, 242, 63);
+}
+
+button.hide-running {display: inline !important}
+.hide-running {display: block !important}
+.show-running {display: none !important}
+
+.running .hide-running {display: none !important}
+.running .show-running {display: block !important}
+.running button.show-running {display: inline !important}

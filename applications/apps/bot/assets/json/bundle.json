@@ -1,0 +1,15 @@
+{
+  "applications": [
+    {
+      "type": "sandbox",
+      "id": "bot",
+      "name": "Bot",
+      "blurb": "Do the Bot thing",
+      "publisher": "",
+      "url": "https://localhost:8080/bot",
+      "domain": "localhost",
+      "visible": true,
+      "icon":"https://localhost:8080/bot/assets/images/app.png"
+    }
+  ]
+}

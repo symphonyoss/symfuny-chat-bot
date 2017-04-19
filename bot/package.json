@@ -1,0 +1,33 @@
+{
+  "name": "symphony-chat-bot",
+  "version": "0.0.1",
+  "description": "The actual bot for symphony chat bot ",
+  "main": "bot.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ondoher/scb.git"
+  },
+  "keywords": [
+    "symphony",
+    "bot",
+    "nodejs"
+  ],
+  "author": "Glenn Anderson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Ondoher/scb/issues"
+  },
+  "homepage": "https://github.com/Ondoher/scb#readme",
+  "dependencies": {
+    "base64url": "^2.0.0",
+    "mongodb": "^2.2.24",
+    "mootools": "^1.5.2",
+    "q": "^1.4.1",
+    "redis": "^2.7.1",
+    "sapphire-rpc": "^0.1.0",
+    "symphony-api": "^0.1.0"
+  }
+}

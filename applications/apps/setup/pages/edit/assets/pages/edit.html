@@ -1,0 +1,68 @@
+<div id="edit-page" class="page edit-page vbox">
+	<div class="edit-page-content">
+		<div class="bot-status hide-running">Paused</div>
+		<h1 id="bot-name-value" class="value"></h1>
+
+		<fieldset id="read-delay" class="read-delay">
+			<label for="read-delay-input">Read Delay</label>
+			<input id="read-delay-input" name="read-delay-input" type="text" placeholder="Read Delay">
+
+			<div class="hint-tooltip tooltip-left show-hint show-error">
+				<div id="read-delay-error" class="hint-tooltip-text error-text"></div>
+			</div>
+		</fieldset>
+
+		<fieldset id="typing-speed" class="typing-speed">
+			<label for="typing-speed-input">Typing Speed</label>
+			<input id="typing-speed-input" name="typing-speed-input" type="text" placeholder="Typing Speed">
+
+			<div class="hint-tooltip tooltip-left show-hint show-error">
+				<div id="typing-speed-error" class="hint-tooltip-text error-text"></div>
+			</div>
+		</fieldset>
+
+		<fieldset id="self-spam" class="self-spam-delay">
+			<label for="self-spam-input">Bot Spam Delay</label>
+			<input id="self-spam-input" name="self-spam-input" type="text" placeholder="Bot Spam Delay">
+
+			<div class="hint-tooltip tooltip-left show-hint show-error">
+				<div id="self-spam-error" class="hint-tooltip-text error-text"></div>
+			</div>
+		</fieldset>
+
+		<fieldset id="other-spam" class="other-spam">
+			<label for="other-spam-input">Spam Delay</label>
+			<input id="other-spam-input" name="other-spam-input" type="text" placeholder="Spam Delay">
+
+			<div class="hint-tooltip tooltip-left show-hint show-error">
+				<div id="other-spam-error" class="hint-tooltip-text error-text"></div>
+			</div>
+		</fieldset>
+
+
+		<div class="clearfix">
+			<div class="script-list-section">
+				<p>Scripts used by the bot, check to remove.</p>
+				<ul id="bot-script-list" class="bot-script-list">
+					<li id="bot-script-item" class="template bot-script-item"><input id="use-script" type="checkbox" class="use-script" /><span id="bot-script-name" class="bot-script-name"></span>
+				</ul>
+			</div>
+
+			<div class="script-list-section">
+				<p>Scripts not used by the bot, check to add to bot.</p>
+				<ul id="unused-script-list" class="bot-script-list unused-script-list">
+				</ul>
+			</div>
+		</div>
+
+		<fieldset id="show-public" class="show-public">
+			<input id="show-public-input" name="show-public-input" type="checkbox">
+			<label for="show-public">Show Public Scripts</label>
+		</fieldset>
+		<div class="bot-buttons">
+			<button id="update-bot" class="button">Update</button>
+			<button id="run-bot" class="button hide-running">Run</button>
+			<button id="pause-bot" class="button show-running">Pause</button>
+		</div>
+	</div>
+</div>
