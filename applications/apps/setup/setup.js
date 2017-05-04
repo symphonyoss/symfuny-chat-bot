@@ -8,12 +8,13 @@ function main(req, res, app)
 	], true);
 
 	app.addCSS([
-		'https://www.symphony.com/resources/api/v1.1/symphony-style.css',
+//       'https://www.symphony.com/resources/api/v1.1/symphony-style.css',
 	], true);
 
 	app.addCSS([
+        '/setup/assets/css/symphony-external-app.css',
 		'/setup/assets/css/setup.css',
-		'/setup/assets/css/flex.css',
+        '/setup/assets/css/flex.css',
 	]);
 
 	app.addJS([

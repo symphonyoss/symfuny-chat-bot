@@ -12,7 +12,7 @@ class Bot {
 		this.urls = {
 			keyUrl: 'https://' + pod + ':8444/keyauth',
 			sessionUrl: 'https://' + pod + ':8444/sessionauth',
-			agentUrl: 'https://' + pod + ':8444/agent',
+            agentUrl: 'https://' + pod + ':8444/agent',
 			podUrl: 'https://' + pod + ':443/pod',
 		}
 

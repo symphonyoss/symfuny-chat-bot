@@ -4,7 +4,7 @@ Package('Bot.Services', {
 		initialize : function()
 		{
 			this.serviceName = 'bot:navigation';
-			this.importServices = 'applications-nav,modules'.split(',');
+            this.importServices = 'applications-nav,modules'.split(',');
 
 			SYMPHONY.services.make(this.serviceName, this, this.implements, true);
 
@@ -37,8 +37,8 @@ Package('Bot.Services', {
 		onReady : function()
 		{
 			this.navService = SYMPHONY.services.subscribe('applications-nav');
-			this.modulesService = SYMPHONY.services.subscribe('modules');
-			this.navService.add('scb-setup', {title: 'Symfuny Chat Bot', icon: BOT.baseUrl + 'bot/assets/images/icon.png'}, this.serviceName);
+            this.modulesService = SYMPHONY.services.subscribe('modules');
+            this.navService.add('scb-setup', {title: 'Symfuny Chat Bot', icon: BOT.baseUrl + 'bot/assets/images/icon.png'}, this.serviceName);
 		}
 	})
 });
