@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Ondoher/scb#readme",
   "dependencies": {
-    "base64url": "^2.0.0",
+    "base64url": "^3.0.1",
     "mongodb": "^2.2.24",
     "mootools": "^1.5.2",
     "q": "^1.4.1",
